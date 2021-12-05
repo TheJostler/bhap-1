@@ -1,5 +1,5 @@
 #!/bin/bash
-name="bhap1sum"
+name="bhap1" ##Edit this if you want to call your function by a different name after install (echo "Sausage & Bacon" | YummyBhap
 if [ "$EUID" -ne 0 ]
 then
 	read -p "You are not running as super user and installation likely won't work, try anyway? y/n-- " yn
