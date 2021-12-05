@@ -43,13 +43,14 @@ Enjoy!!
 ## Installing
 
 #### You can install the binary executable using the install.sh shell script
-1. download the install.sh script
+1. download the [install.sh](https://github.com/TheJostler/bhap-1/blob/main/install.sh) script
 2. open the file and edit the name variable if you want to call it something else (like Cheezburga, or Pizza)
 3. give the script executable privilages `sudo chmod +x install.sh`
 4. then simply run it `./install.sh`
 ⋅⋅* You can install a later version by passing the version number to the script `./install.sh 1.1`
 
 check out Releases to download the binary yourself!
-[Releases]: https://github.com/TheJostler/bhap-1/releases
+
+[Releases](https://github.com/TheJostler/bhap-1/releases)
 #### You can also run this program using only the python3 interpreter
 `python3 bhap-1`
