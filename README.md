@@ -48,5 +48,6 @@ Enjoy!!
 3. give the script executable privilages `sudo chmod +x install.sh`
 4. then simply run it `./install.sh`
 ⋅⋅* You can install a later version by passing the version number to the script `./install.sh 1.1`
+check out Releases to download the binary yourself!
 #### You can also run this program using only the python3 interpreter
 `python3 bhap-1`
