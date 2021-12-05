@@ -18,5 +18,9 @@ Use pipe to throw stuff at it
 Observe:
 
  `$ echo "Sausage & Bacon" | python3 bhap-1`
+ 
  returns
- 0xf846aa7b85c14a250191cc62445b1a7cf09654f752ec36eb1791fa3c20
+ 
+ _0xf846aa7b85c14a250191cc62445b1a7cf09654f752ec36eb1791fa3c20_
+
+the code was built and tested in Arch Linux, I'm yet to test it in Windows!
