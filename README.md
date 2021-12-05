@@ -5,9 +5,9 @@ Not bad as in malicious, but just bad...
 
 Written in Python an interpreter language it runs magnitudes slower that your average Hashing Algorithm.
 For now, it can only process utf-8 encoded characters that are thrown at it from stdin.
-But hey...
+And I'm sure all you python gurus will look at the monstrously unoptimised code and wail in disbelief, But hey...
 
-It algorithms hashes OK!?
+It algorithms hashes OK!
 
 # use
 
@@ -29,6 +29,9 @@ Observe:
  As so:
  
  `$ cat file | python3 bhap-1`
+returns
+
+_0x1a77b6f63038e609bbcfab13f8581193587db83e6d45af681af4bdcfe14_
 
 ### Please note
 the code was built and tested in Arch Linux, I'm yet to test it in Windows!
