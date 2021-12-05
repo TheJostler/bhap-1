@@ -43,8 +43,8 @@ Enjoy!!
 ## Installing
 
 1. download the install.sh bash shell
-1.5. open the file and edit the name variable if you want to call it something else (like Cheezburga, or Pizza)
-2. give the script executable priv `sudo chmod +x install.sh`
-3. then simply run it `./install.sh`
+2. open the file and edit the name variable if you want to call it something else (like Cheezburga, or Pizza)
+3. give the script executable priv `sudo chmod +x install.sh`
+4. then simply run it `./install.sh`
 
 To run this program you only need to make sure you have python3 installed and open the file with python3 in the command line
