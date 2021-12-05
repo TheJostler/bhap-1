@@ -42,9 +42,11 @@ Enjoy!!
 
 ## Installing
 
-1. download the install.sh bash shell
+#### You can install the binary executable using the install.sh shell script
+1. download the install.sh script
 2. open the file and edit the name variable if you want to call it something else (like Cheezburga, or Pizza)
 3. give the script executable priv `sudo chmod +x install.sh`
 4. then simply run it `./install.sh`
 
-To run this program you only need to make sure you have python3 installed and open the file with python3 in the command line
+You can also run this program using only the python3 interpreter
+`python3 bhap-1`
