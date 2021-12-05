@@ -22,5 +22,12 @@ Observe:
  returns
  
  _0xf846aa7b85c14a250191cc62445b1a7cf09654f752ec36eb1791fa3c20_
+ 
+ ## Files
+ to create a hash value for a file(encoded in plain text) concatonate the file and fire it at bhap-1
+ 
+ As so:
+ 
+ `$ cat file | python3 bhap-1`
 
 the code was built and tested in Arch Linux, I'm yet to test it in Windows!
