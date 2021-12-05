@@ -32,3 +32,6 @@ Observe:
 
 ### Please note
 the code was built and tested in Arch Linux, I'm yet to test it in Windows!
+I'll update the readme as soon as I get the thing working!!
+
+Enjoy!!
