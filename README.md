@@ -29,6 +29,7 @@ Observe:
  As so:
  
  `$ cat file | python3 bhap-1`
+ 
 returns
 
 _0x1a77b6f63038e609bbcfab13f8581193587db83e6d45af681af4bdcfe14_
@@ -38,3 +39,9 @@ the code was built and tested in Arch Linux, I'm yet to test it in Windows!
 I'll update the readme as soon as I get the thing working!!
 
 Enjoy!!
+
+## Installing
+
+No need to install!
+
+To run this program you only need to make sure you have python3 installed and open the file with python3 in the command line
