@@ -53,4 +53,4 @@ check out Releases to download the binary yourself!
 
 [Releases](https://github.com/TheJostler/bhap-1/releases)
 #### You can also run this program using only the python3 interpreter
-`python3 bhap-1`
+`python3 bhap-1.py`
