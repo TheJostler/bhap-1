@@ -17,7 +17,7 @@ Use pipe to throw stuff at it
 
 Observe:
 
- `$ echo "Sausage & Bacon" | python3 bhap-1`
+ `$ echo "Sausage & Bacon" | bhap1sum`
  
  returns
  
@@ -28,7 +28,7 @@ Observe:
  
  As so:
  
- `$ cat file | python3 bhap-1`
+ `$ cat file | bhap1sum`
  
 returns
 
@@ -47,6 +47,6 @@ Enjoy!!
 2. open the file and edit the name variable if you want to call it something else (like Cheezburga, or Pizza)
 3. give the script executable privilages `sudo chmod +x install.sh`
 4. then simply run it `./install.sh`
-
+⋅⋅* You can install a later version by passing the version number to the script `./install.sh 1.1`
 #### You can also run this program using only the python3 interpreter
 `python3 bhap-1`
