@@ -47,7 +47,7 @@ Enjoy!!
 2. open the file and edit the name variable if you want to call it something else (like Cheezburga, or Pizza)
 3. give the script executable privilages `sudo chmod +x install.sh`
 4. then simply run it `./install.sh`
-⋅⋅* You can install a later version by passing the version number to the script `./install.sh 1.1`
+* You can install a later version by passing the version number to the script `./install.sh 1.1`
 
 check out Releases to download the binary yourself!
 
