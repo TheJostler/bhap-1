@@ -30,4 +30,5 @@ Observe:
  
  `$ cat file | python3 bhap-1`
 
+### Please note
 the code was built and tested in Arch Linux, I'm yet to test it in Windows!
