@@ -7,7 +7,6 @@ then
 	then
 		echo "Ok proceeding with install"
 	else
-		sudo $0 $@
 		exit 0
 	fi
 fi
@@ -68,14 +67,14 @@ then
 	do
 		n=$(($n+1))
 		cp $filename ${paths[$n]}/$name
-		if [ -f ${paths[$n]/$name} ]
+		if [ $? = 0 ]
 		then
 			echo "installation complete"
 			exit 0
 		fi
 		echo "could not install bhap"
 		echo "try running as sudo"
-		echo "Sorry, try downloading and installig manually"
+		echo "or just downloading and installig manually"
 		exit 1
 	done
 fi
