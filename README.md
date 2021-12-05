@@ -12,8 +12,11 @@ It algorithms hashes OK!?
 # use
 
 In a Linux/Mac terminal:
+
 Use pipe to throw stuff at it
+
 Observe:
 
- $ echo "Sausage & Bacon" | python3 bhap-1
+ `$ echo "Sausage & Bacon" | python3 bhap-1`
+ returns
  0xf846aa7b85c14a250191cc62445b1a7cf09654f752ec36eb1791fa3c20
