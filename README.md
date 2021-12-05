@@ -15,4 +15,5 @@ In a Linux/Mac terminal:
 Use pipe to throw stuff at it
 Observe:
 
-echo "sausage" | python3 bhap-1
+ $ echo "Sausage & Bacon" | python3 bhap-1
+0xf846aa7b85c14a250191cc62445b1a7cf09654f752ec36eb1791fa3c20
