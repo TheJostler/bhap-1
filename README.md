@@ -48,5 +48,5 @@ Enjoy!!
 3. give the script executable priv `sudo chmod +x install.sh`
 4. then simply run it `./install.sh`
 
-You can also run this program using only the python3 interpreter
+#### You can also run this program using only the python3 interpreter
 `python3 bhap-1`
