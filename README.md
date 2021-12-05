@@ -9,7 +9,7 @@ And I'm sure all you python gurus will look at the monstrously unoptimised code 
 
 It algorithms hashes OK!
 
-# use
+# Use
 
 In a Linux/Mac terminal:
 
