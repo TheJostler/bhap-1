@@ -1,7 +1,5 @@
 #!/bin/bash
 name="bhap1sum" ##Edit this if you want to call your function by a different name after install (echo "Sausage & Bacon" | YummyBhap
-customTarball="" ##Enter a directory path containing the tarball you want to install if you don't want to download it again (by entering a variable you cancel the download)
-customFile="" ##Enter a directory path containing the bhap-1 binary if you don't want to use the downloaded one (by entering a variable you cancel the download)
 if [ "$EUID" -ne 0 ]
 then
 	read -p "You are not running as super user and installation likely won't work, try anyway? y/n-- " yn
@@ -23,21 +21,9 @@ then
 		read -p "Please specify version (e.g \"1.1\")-- " ver
 	fi
 fi
-if [[ $customTarball != "." || $customFile != "." ]]
-then
-	if [ ! -d $customTarball ]
-	then
-		echo "the tarball path specified in the script doesn't exist"
-		exit 1
-	fi
-	if [ ! -d $customFile ]
-	then
-		echo "the binary file path specified in the script doesn't exist"
-		exit 1
-	fi
-fi
-tarball=$customTarball/"bhap1.v$ver.tar.gz"
-filename=$customFile/"bhap1.v$ver"
+custom=""
+tarball=$custom"bhap1.v$ver.tar.gz"
+filename=$custom"bhap1.v$ver"
 echo $filename
 url="https://github.com/TheJostler/bhap-1/releases/download/v$ver/bhap1.v$ver.tar.gz"
 p=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
@@ -63,13 +49,8 @@ function cleanup {
 trap cleanup EXIT
 
 cd $tmpd
-if [[ $customTarball != "." || $customFile != "." ]]
-then
-	echo "Skipping download"
-else
-	wget $url
-fi
-if [ $? > 0 ]
+wget $url
+if [[ $? > 0 ]]
 then
 	echo "could not find v$ver"
 	echo "try installing v1.0"
@@ -86,7 +67,7 @@ then
 	do
 		n=$(($n+1))
 		cp $filename ${paths[$n]}/$name
-		if [ $? = 0 ]
+		if [[ $? = 0 ]]
 		then
 			echo "installation complete"
 			exit 0
