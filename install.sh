@@ -63,7 +63,12 @@ function cleanup {
 trap cleanup EXIT
 
 cd $tmpd
-wget $url
+if [[ $customTarball != "." || $customFile != "." ]]
+then
+	echo "Skipping download"
+else
+	wget $url
+fi
 if [ $? > 0 ]
 then
 	echo "could not find v$ver"
